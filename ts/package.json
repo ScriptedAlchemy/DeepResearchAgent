@@ -1,0 +1,29 @@
+{
+  "name": "deepresearch-agent-ts",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "example": "node dist/index.js",
+    "test": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.0.10",
+    "@openai/agents-realtime": "^0.0.10",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.44.1",
+    "yaml": "^2.8.1",
+    "yargs": "^17.7.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/yargs": "^17.0.24",
+    "typescript": "^5.4.0"
+  }
+}

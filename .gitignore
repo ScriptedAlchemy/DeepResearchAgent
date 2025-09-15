@@ -181,3 +181,7 @@ data/
 workdir/
 
 others/
+
+# TypeScript build artifacts
+/ts/node_modules/
+/ts/dist/
