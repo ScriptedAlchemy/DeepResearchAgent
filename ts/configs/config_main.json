@@ -1,0 +1,6 @@
+{
+  "log_path": "dra.log",
+  "template_path": "../src/prompts/deep_researcher_agent.yaml",
+  "model": "computer-use-preview",
+  "agent_name": "DeepResearcher"
+}
